@@ -14,7 +14,7 @@ import java.util.Map;
 public class HttpRequest {
 
 	private InputStream inputStream;
-	private byte[] buffer = new byte[1024];
+	private byte[] buffer = new byte[2048];
 	private String requestLine;
 	private Map<String, String> headersMap = new HashMap<>();
 	private int contentLength;
