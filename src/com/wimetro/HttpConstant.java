@@ -15,5 +15,7 @@ public interface HttpConstant {
 	public static final String CRLF = "\r\n";
 
 	public static final String CONTENT_LENGTH = "Content-Length";
+	
+	public static final String SPACE = " ";
 
 }
